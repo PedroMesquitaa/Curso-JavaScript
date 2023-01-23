@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .botoes{
+            width: 150px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio das Mensagens</h1>
+
+    <input id="b1" class="botoes" type="button" value="Botão 1">
+    <input id="b2" class="botoes" type="button" value="Botão 2">
+    <input id="b3" class="botoes" type="button" value="Botão 3">
+
+    <script>
+        var a = document.getElementById('b1')
+        a.addEventListener('click', clicar)
+
+        var b = document.getElementById('b2')
+        b.addEventListener('click', clicar2)
+
+        var c = document.getElementById('b3')
+        c.addEventListener('click', clicar3)
+
+        function clicar(){
+            window.alert('Você clicou no 1º botão!');
+        }
+
+        function clicar2(){
+            window.alert('Você clicou no 2º botão!');
+        }
+
+        function clicar3(){
+            window.alert('Você clicou no 3º botão!')
+        }
+    </script>
+</body>
+</html>
