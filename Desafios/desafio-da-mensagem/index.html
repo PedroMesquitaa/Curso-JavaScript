@@ -19,29 +19,20 @@
 <body>
     <h1>Desafio das Mensagens</h1>
 
-    <input id="b1" class="botoes" type="button" value="Botão 1">
-    <input id="b2" class="botoes" type="button" value="Botão 2">
-    <input id="b3" class="botoes" type="button" value="Botão 3">
+    <input class="botoes" type="button" value="Botão 1" onclick="b1()">
+    <input class="botoes" type="button" value="Botão 2" onclick="b2()">
+    <input class="botoes" type="button" value="Botão 3" onclick="b3()">
 
     <script>
-        var a = document.getElementById('b1')
-        a.addEventListener('click', clicar)
-
-        var b = document.getElementById('b2')
-        b.addEventListener('click', clicar2)
-
-        var c = document.getElementById('b3')
-        c.addEventListener('click', clicar3)
-
-        function clicar(){
+        function b1(){
             window.alert('Você clicou no 1º botão!');
         }
 
-        function clicar2(){
+        function b2(){
             window.alert('Você clicou no 2º botão!');
         }
 
-        function clicar3(){
+        function b3(){
             window.alert('Você clicou no 3º botão!')
         }
     </script>
