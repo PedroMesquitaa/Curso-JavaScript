@@ -12,7 +12,7 @@
     </style>
 </head>
 <body>
-    <h1>Brasileiro ou estrangeiro?</h1>
+    <h1>Brasileiro ou Estrangeiro?</h1>
 
     Qual País você nasceu? <input type="text" name="nac" id="pais">
     <input type="button" value="Enviar" onclick="identificar()">
@@ -23,8 +23,7 @@
         function identificar(){
             var nacionalidade = document.getElementById('pais')
             var res = document.getElementById('res')
-
-            var pais2 = nacionalidade.value
+            var pais2 = (nacionalidade.value)
 
             res.innerHTML = `<p>Você nasceu no(a) ${pais2}`
             if(pais2 == 'Brasil'){
