@@ -12,19 +12,24 @@ Grandes Telas: acima de 1200px
 
 
 @media screen and (min-width: 769px) and (max-width: 992px){
+    body{
+        background-color: rgb(70, 142, 236);
+        font: normal 1em Arial;
+    }
+
     section{
         background-color: white;
         border-radius: 10px;
         padding: 15px;
         width: 600px;
+        height: 400px;
         margin: auto;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
     }
     
     img{
-        margin-top: 10px;
-        width: 400px;
-        height: 400px;
+        width: 250px;
+        height: 250px;
         border-radius: 50%;
     }
 }
@@ -35,14 +40,14 @@ Grandes Telas: acima de 1200px
         border-radius: 10px;
         padding: 15px;
         width: 1000px;
-        height: 587px;
+        height: 445px;
         margin: auto;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
     }
     
     img{
-        width: 300px;
-        height: 300px;
+        width: 290px;
+        height: 290px;
         border-radius: 50%;
     }
 }
