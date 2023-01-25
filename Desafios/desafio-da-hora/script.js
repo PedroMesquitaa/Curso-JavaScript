@@ -23,14 +23,4 @@ function carregar(){
             document.body.style.background = '#1F294C'
         }
     }
-
 }
-
-/*var agora = new Date()
-var hora = agora.getHours()
-var min = agora.getMinutes()
-
-var img = document.getElementsByClassName('imagem')
-var msg = document.getElementsByClassName('msg')
-
-msg.innerHTML = `<p>Agora são ${hora}:${min} horas.</p>`*/
