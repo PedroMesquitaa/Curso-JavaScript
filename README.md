@@ -9,3 +9,9 @@ https://pedromesquitaa.github.io/Curso-JavaScript/Desafios/desafio-da-hora/index
 
 Link do Desafio Verificador de Idade:
 https://pedromesquitaa.github.io/Curso-JavaScript/Desafios/desafio-da-idade/index.html
+
+Link do Desafio Contador:
+https://pedromesquitaa.github.io/Curso-JavaScript/Desafios/desafio-super-contador/index.html
+
+Link do Desafio Tabuada:
+https://pedromesquitaa.github.io/Curso-JavaScript/Desafios/desafio-tabuada/index.html
