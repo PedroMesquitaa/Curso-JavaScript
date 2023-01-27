@@ -15,3 +15,6 @@ https://pedromesquitaa.github.io/Curso-JavaScript/Desafios/desafio-super-contado
 
 Link do Desafio Tabuada:
 https://pedromesquitaa.github.io/Curso-JavaScript/Desafios/desafio-tabuada/index.html
+
+Link do Desafio Analisador de Números:
+https://pedromesquitaa.github.io/Curso-JavaScript/Desafios/desafio-Analisador-de-Numeros/index.html
