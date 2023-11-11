@@ -18,18 +18,18 @@ for(var i = 0; i < pacientes.length; i++){   // variavel i igual a 0; enquanto o
 
 	var tdImc = paciente.querySelector(".info-imc"); // varialvel tdImc vai receber a classe info-imc que esta dentro do paciente.
 
-	var pesoValido = true; // valor da variavel pesoValido inicial é verdadeiro e usaremos isso para validação
-	var alturaValida = true; // valor da variavel alturaValida inicial é verdadeiro e usaremos isso para validação
+	var pesoValido = validaPeso(peso); // valor da variavel pesoValido inicial é verdadeiro e usaremos isso para validação
+	var alturaValida = validaAltura(altura); // valor da variavel alturaValida inicial é verdadeiro e usaremos isso para validação
 
 	// fazendo validação
 
-	if(peso <= 0 || peso >= 400){
+	if(!pesoValido){
 		tdImc.textContent = "Peso inválido!";  // Se o peso for invalido a var tdImc ira mostrar um conteudo de texto
 		pesoValido = false;  // o valor do pesoValido sera falso
 		paciente.classList.add("paciente-invalido"); // sendo falso o valor ele ira usar classList.add do css para usar o estilo de la
 	}
 
-	if(altura <= 0 || altura >= 2.40){
+	if(!alturaValida){
 		tdImc.textContent = "Altura inválida";
 		alturaValida = false;
 		paciente.classList.add("paciente-invalido");
@@ -38,6 +38,25 @@ for(var i = 0; i < pacientes.length; i++){   // variavel i igual a 0; enquanto o
 	if(alturaValida == true && pesoValido == true){
 		var imc = calculaImc(peso,altura); // a var imc ira receber a funcao calculaImc
 		tdImc.textContent = imc; // e a var tdImc ira nos mostrar como um conteudo de texto o valor do calculo
+	}
+}
+
+
+
+function validaPeso(peso){
+	if(peso >= 0 && peso < 1000){
+		return true;
+	}else{
+		return false;
+	}
+}
+
+
+function validaAltura(altura){
+	if(altura >= 0 && altura < 2.40){
+		return true;
+	}else{
+		return false;
 	}
 }
 
