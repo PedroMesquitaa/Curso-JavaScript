@@ -1,5 +1,5 @@
 # Curso-JavaScript
- Curso de JavaScript do Curso
+ Curso de JavaScript
 
 Link do Desafio da Mensagem:
 https://pedromesquitaa.github.io/Curso-JavaScript/Desafios/desafio-da-mensagem/index.html
