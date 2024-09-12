@@ -2,7 +2,7 @@
  Curso de JavaScript
 
 Link do Desafio da Mensagem:
-https://pedromesquitaa.github.io/Curso-JavaScript/Desafios/desafio-da-mensagem/index.html
+https://github.com/PedroMesquitaa/Curso-JavaScript/blob/5ef76ec10dfa1974a096e482ceeebeefbe02d723/Curso%201/Desafios/desafio-Analisador-de-Numeros/index.html
 
 Link do Desafio Hora do Dia:
 https://pedromesquitaa.github.io/Curso-JavaScript/Desafios/desafio-da-hora/index.html
