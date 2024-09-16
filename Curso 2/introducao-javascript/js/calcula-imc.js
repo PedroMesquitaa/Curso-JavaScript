@@ -45,7 +45,6 @@ for(var i = 0; i < pacientes.length; i++){   // variavel i igual a 0; enquanto o
 }
 
 
-
 function validaPeso(peso){
 	if(peso >= 0 && peso < 240){
 		return true;
