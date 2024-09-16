@@ -65,6 +65,7 @@ function obtemPacienteDoFormulario(form){
 function montaTr(paciente){
     var pacienteTr = document.createElement("tr");
     pacienteTr.classList.add("paciente");
+    
 	
 	pacienteTr.appendChild(montaTd(paciente.nome, "info-nome"));
 	pacienteTr.appendChild(montaTd(paciente.peso, "info-peso"));     // o appendChild serve para ensinar a maquina a saber qual var ira ser o pai de outra var, ou seja, a tag tr é pai da td pois a td fica dentro da tr

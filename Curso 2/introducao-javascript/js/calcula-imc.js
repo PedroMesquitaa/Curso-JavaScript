@@ -12,11 +12,13 @@ for(var i = 0; i < pacientes.length; i++){   // variavel i igual a 0; enquanto o
 	var tdPeso = paciente.querySelector(".info-peso"); // varialvel tdPeso vai receber a classe info-peso que esta dentro do paciente.
 	var peso = tdPeso.textContent; // variavel peso ira receber o conteudo do tdPeso
 
+	
 	var tdAltura = paciente.querySelector(".info-altura"); // varialvel tdAltura vai receber a classe info-altura que esta dentro do paciente.
 	var altura = tdAltura.textContent // variavel altura ira receber o conteudo do tdaltura
 
 
 	var tdImc = paciente.querySelector(".info-imc"); // varialvel tdImc vai receber a classe info-imc que esta dentro do paciente.
+
 
 	var pesoValido = validaPeso(peso); // valor da variavel pesoValido inicial é verdadeiro e usaremos isso para validação
 	var alturaValida = validaAltura(altura); // valor da variavel alturaValida inicial é verdadeiro e usaremos isso para validação
