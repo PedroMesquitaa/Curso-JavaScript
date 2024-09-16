@@ -8,5 +8,4 @@ tabela.addEventListener("dblclick", function(event){
         event.target.parentNode.remove(); // TR = paciente = remover
     },500);
 
-   
 });
