@@ -1,6 +1,7 @@
 var titulo = document.querySelector("h1");  // querySelector retorna no console para nós o h1
 titulo.textContent = "Aparecida NUTRICIONISTA"; // Usando o textContext muda o que esta dentro.
 
+
 var pacientes = document.querySelectorAll(".paciente"); // querySelectorAll retorna todos o conteudo que tem a mesma classe
 
 // fazendo o calculo para todos os pacientes que tem no formulário sem precisar fazer um código para cada um
