@@ -54,6 +54,7 @@ function validaPeso(peso){
 }
 
 
+
 function validaAltura(altura){
 	if(altura >= 0 && altura < 2.40){
 		return true;
