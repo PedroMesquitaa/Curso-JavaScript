@@ -1,6 +1,9 @@
 # Curso-JavaScript
  Curso de JavaScript
 
+Link do Projeto:
+https://pedromesquitaa.github.io/Curso-JavaScript/Curso%202/introducao-javascript/index.html
+
 Link do Desafio da Mensagem:
 https://pedromesquitaa.github.io/Curso-JavaScript/Curso%201/Desafios/desafio-da-mensagem/index.html
 
