@@ -1,0 +1,18 @@
+var readlineSync = require('readline-sync'); // configuração para o node.js receber entrada de dados do usuario
+
+// entrada
+
+console.log("..:: Calculadora ::.. \n");
+
+const altura = readlineSync.question('Digite a altura da lata de oleo: \n');
+const raio = readlineSync.question('Digite o raio da lata de oleo: \n');
+
+// processamento
+
+const raioAoQuadrado = parseFloat(raio) * raio;
+const volume = 3.14 * raioAoQuadrado * parseFloat(altura);
+
+// saida
+
+console.log("\n..:: Resultado ::..");
+console.log(`O volume da lata de oleo é: ${volume.toFixed(2)}`);
